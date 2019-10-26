@@ -1,6 +1,6 @@
     @echo off
 
-ping -n 1 172.16.1.1 > nul
+ping -n 3 172.16.1.1 > nul
 if not ERRORLEVEL 1 (
     ping -n 1 8.8.8.8 > nul
     if ERRORLEVEL 1 (
