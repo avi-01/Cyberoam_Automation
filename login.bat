@@ -15,5 +15,5 @@ set pingresult=false
 if %pingresult% == true (
  python D:\Projects\login\login.py > nul
     echo Successfully Logged In
+    pause
 )
-pause
